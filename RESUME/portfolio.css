@@ -1,0 +1,31 @@
+#about
+{
+    text-align: center;
+}
+
+#title{
+    background-color: lightpink;
+    }
+
+.profilepic
+{
+   border-radius: 50%;
+    width: 400px; 
+    height: 400px; /* keep the height fixed height */
+    object-fit: cover; /* don't want the image to be distorted */
+} 
+.activipic
+{
+    width:fit-content;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+ 
+ /* Carousel image sizes */
+        #hobbyCarousel .carousel-item img {
+            width: 100%; /* responsive width */
+            height: 500px; /* keep the height fixed height */
+            object-fit: cover; /* don't want the image to be distorted */
+        }
